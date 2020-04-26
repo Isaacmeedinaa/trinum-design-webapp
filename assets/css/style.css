@@ -15532,7 +15532,7 @@ ul.social-transparent li a:hover {
 .rn-progress-charts .progress .progress-bar span.percent-label {
   position: absolute;
   color: #222;
-  right: -7px;
+  right: 0px;
   top: -35px;
   font-size: 14px;
   font-weight: 600;
@@ -15606,6 +15606,11 @@ Gallery Styles
 
 .single-column.custom-color.custom-color--2 {
   background: #c93ec7;
+}
+
+.top {
+  position: relative;
+  top: 60px;
 }
 
 /*-------------------------------
