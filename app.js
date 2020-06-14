@@ -8,6 +8,8 @@ var indexRouter = require('./routes/index');
 
 var app = express();
 
+var port = 1001;
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
@@ -40,8 +42,8 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-app.listen(8080, () => {
-  console.log('CONNECTED');
+app.listen(port, () => {
+  console.log(`connected to port ${port}`);
 });
 
 module.exports = app;

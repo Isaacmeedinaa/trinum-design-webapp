@@ -28,7 +28,7 @@ router.get('/contact.html', function (req, res, next) {
 });
 
 router.get('/services.html', function (req, res, next) {
-  res.sendFile('public/service.html', {
+  res.sendFile('public/services.html', {
       root: "./"
   })
 });
